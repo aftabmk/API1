@@ -18,9 +18,7 @@ async function f()
     const b = head[1].split(";")[0]+";";
     const c = head[2].split(";")[0]+";";
     const d= head[3].split(";")[0]+";";
-    const cookie = a+b+c+d
-
-    console.log(l)
+    const cookie = a+b+c+d;
     const h = { ...hh,Referer: url,cookie:cookie}
     console.log(h)
      const r1 = await ax.get(nft,h);
