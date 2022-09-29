@@ -1,5 +1,6 @@
 const ax = require("axios");
 const ex = require("express");
+const cors = require('cors')
 
 const url = 'https://kf8gy9csr0.execute-api.ap-south-1.amazonaws.com/webapi/index/topStocksList'
 
@@ -25,8 +26,7 @@ async function f()
 //EXPRESS APP
 
 const app = ex()
-
-
+app.use(cors())
 const port = process.env.PORT || 5000;
 
 app.get(`/${path}`, async (req, res) => {
