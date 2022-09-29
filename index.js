@@ -4,7 +4,7 @@ const cors = require('cors')
 
 const url = 'https://kf8gy9csr0.execute-api.ap-south-1.amazonaws.com/webapi/index/topStocksList'
 
-const path = 'nifty50'
+const path = 'daily'
 
 async function f()
 
