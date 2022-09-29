@@ -1,16 +1,17 @@
 {
-  "name": "api2",
+  "name": "api1",
   "version": "1.0.0",
   "description": "",
-  "main": "v.js",
+  "main": "index.js",
   "scripts": {
-    "run": "node v.js"
+    "start": "node run index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2",
+    "cors": "^2.8.5",
     "express": "^4.18.1"
   }
 }
